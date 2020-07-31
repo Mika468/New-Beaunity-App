@@ -9,7 +9,12 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
+    @IBOutlet weak var wellnessQuote: UILabel!
+    
+    @IBAction func quoteTwo(_ sender: Any) { wellnessQuote.text = "It's the little things in life-Unknown"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

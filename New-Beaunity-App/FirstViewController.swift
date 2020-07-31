@@ -10,10 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+
+    @IBOutlet weak var homeQuote: UILabel!
+    
+    
+    @IBAction func quoteOne(_ sender: Any) {
+        homeQuote.text = "With our thoughts we make the world-Buddha" }
 
 
 }
