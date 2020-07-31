@@ -56,7 +56,6 @@
 		4D23AC5424D3A90400A2CCE9 = {
 			isa = PBXGroup;
 			children = (
-				4D5707D124D3BBCC0076C843 /* ToDo.swift */,
 				4D23AC5F24D3A90400A2CCE9 /* New-Beaunity-App */,
 				4D23AC5E24D3A90400A2CCE9 /* Products */,
 			);
@@ -83,6 +82,7 @@
 				4D23AC7324D3A90800A2CCE9 /* Info.plist */,
 				4D23AC6B24D3A90400A2CCE9 /* New_Beaunity_App.xcdatamodeld */,
 				4D23AC7924D3ABFF00A2CCE9 /* MentalHealthViewController.swift */,
+				4D5707D124D3BBCC0076C843 /* ToDo.swift */,
 				4D23AC7B24D3AC5C00A2CCE9 /* ResourcesViewController.swift */,
 				4D5707CF24D3BB730076C843 /* ToDoTableViewController.swift */,
 				4D5707D324D3D2E90076C843 /* AddToDoViewController.swift */,
