@@ -21,13 +21,13 @@ swift.important = true
     }
     //}
 var toDos : [ToDo] = []
+    //var toDos : [ToDoCD] = []
     override func viewDidLoad() {
         super.viewDidLoad()
     toDos = createToDos()
 }
 
     // MARK: - Table view data source
-
 
 override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { return toDos.count
 }

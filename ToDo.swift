@@ -13,5 +13,6 @@ var important = false
     init(listName: String, listInformation: Bool) {
 name = listName
 important = listInformation
-}
+        
+    }
 }

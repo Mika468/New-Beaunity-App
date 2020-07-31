@@ -11,16 +11,14 @@ import UIKit
 class CompleteToDoViewController: UIViewController {
     
 var previousVC = ToDoTableViewController()
-    var selectedToDo = ToDo(listName: <#String#>, listInformation: <#Bool#>)
-    
-    
+var selectedToDo = ToDo(listName: <#String#>, listInformation: <#Bool#>)
+        
     @IBOutlet weak var titleLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = selectedToDo.name
     }
 
-    
     @IBAction func completeTapped(_ sender: Any) {
     }
 }

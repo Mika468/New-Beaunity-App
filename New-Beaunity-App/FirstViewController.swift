@@ -10,13 +10,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-
     @IBOutlet weak var homeQuote: UILabel!
-    
-    
+        
     @IBAction func quoteOne(_ sender: Any) {
         homeQuote.text = "With our thoughts we make the world-Buddha" }
-
 
 }
 
